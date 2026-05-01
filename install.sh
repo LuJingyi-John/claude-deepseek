@@ -40,7 +40,7 @@ pick_model() {
     print_model_menu
     while true; do
         echo -ne "\n  ${TEAL}${prompt} [1/2] (default ${default}):${RESET} "
-        read -r choice
+        read -r choice </dev/tty
         choice="${choice:-$default}"
         case "$choice" in
             1) eval "$__varname='deepseek-v4-flash'"; break ;;
@@ -163,7 +163,7 @@ echo
 
 while true; do
     echo -ne "  ${TEAL}Paste your API key (input hidden):${RESET} "
-    read -r API_KEY
+    read -rs API_KEY </dev/tty
     echo
     if [[ "$API_KEY" =~ ^sk-.{8,}$ ]]; then
         success "API key format looks good"
