@@ -2,6 +2,11 @@
 
 让 Claude Code 用 DeepSeek 模型。
 
+## 前置
+
+- macOS / Linux
+- [DeepSeek API Key](https://platform.deepseek.com)（新号送 $10）
+
 ## 安装
 
 ```bash
@@ -13,11 +18,6 @@ curl -fsSL https://raw.githubusercontent.com/LuJingyi-John/claude-deepseek/main/
 ```bash
 claude
 ```
-
-## 前置
-
-- macOS / Linux
-- [DeepSeek API Key](https://platform.deepseek.com)（新号送 $10）
 
 ## 卸载
 
