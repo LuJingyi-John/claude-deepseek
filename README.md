@@ -11,7 +11,7 @@ curl -fsSL https://raw.githubusercontent.com/LuJingyi-John/claude-deepseek/main/
 ## 使用
 
 ```bash
-claude "用 Python 写一个快速排序"
+claude
 ```
 
 ## 前置
